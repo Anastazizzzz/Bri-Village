@@ -1,0 +1,75 @@
+.Content-nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+}
+
+.nav-bar{
+    width: 76.25rem;
+    height: 6.25rem;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+    color: rgba(26, 58, 39, 1);
+}
+
+.List{
+    width: 30.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.list-point{
+    padding-top: 0.7rem;
+}
+
+/*Logo*/
+
+.Logo{
+    width: 13.25rem;
+}
+
+/*Phone number*/
+
+.nav-bar__tell{
+    width: 12.9rem;
+}
+
+.tell-content{
+    padding: 0.9rem;
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+}
+
+.icon{
+    width: 1.5rem;
+}
+
+.phone-number{
+    width: 8.9rem;
+    font-weight: 600;
+    padding: 0 0;
+    padding-bottom: 0.3rem;
+}
+
+.click-part{
+    display: flex;
+    align-items: center; 
+    gap: 0.3rem;
+}
+
+/*Button*/
+
+.Button-click{
+    width: 11.9rem;
+    height: 3.5rem;
+    background-color: rgba(59, 146, 84, 1);
+    font-size: 0.87rem;
+    border: none;
+    border-radius: 0.6rem;
+    color: white;
+}
+

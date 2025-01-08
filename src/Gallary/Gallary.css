@@ -1,0 +1,68 @@
+/*Slider position*/
+.Gallary-slider_Content{
+    width: 100%;
+    max-width: 73.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/*Header and button*/ 
+
+.Header-n-button{
+    width: 100%;
+    max-width: 73.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 2.25rem;
+    color: rgba(26, 58, 39, 1);
+}
+
+/*Picture's paddings*/
+.block1-grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.06rem;
+}
+
+.block1-grid_row1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+}
+
+.block3-grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.06rem;
+}
+
+.block3-grid_row2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+}
+/*Picture's size*/
+.column-card{
+    width: 11.25rem;
+    height: 15.625rem;
+    border-radius: 0.625rem;
+}
+
+.row-card{
+    width: 23.75rem;
+    height: 15.625rem;
+    border-radius: 0.625rem;
+}
+
+.center-card{
+    width: 23.6875rem;
+    height: 32.5rem;
+    border-radius: 0.625rem;
+}

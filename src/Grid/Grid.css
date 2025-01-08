@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+/*Cards*/
+.CardsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 равные колонки */
+    gap: 1rem; /* Расстояние между элементами */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; /* Центрирование */
+}
+
+.Img-content {
+    width: 100%;
+    max-width: 23.75rem; /* Ограничение ширины */
+    height: 15.625rem; /* Сохраняет пропорции */
+    border-radius: 0.625rem;
+    overflow: hidden;
+}
+
+.text-content {
+    text-align: center; /* Центрирует текст */
+}

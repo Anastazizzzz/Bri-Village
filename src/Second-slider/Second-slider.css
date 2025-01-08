@@ -1,0 +1,41 @@
+.card-block{
+    width: 100%;
+    max-width: 73.5rem;
+    background-color: rgba(240, 231, 217, 1);
+    margin: 0 auto;
+}
+
+/*Image*/
+
+.img-card{
+    position: relative;
+    margin: 0 auto;
+    width: 68.75rem;
+    height: 32.5rem;
+    z-index: 1;
+}
+
+/*Button block*/
+.Button{
+    position: absolute; 
+    top: 50%; 
+    z-index: 2;
+}
+
+
+.Button-block{
+    width: 100%;
+    max-width: 66.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttons1{
+    margin-right: 25rem;
+}
+
+.buttons2{
+    margin-left: 30rem;
+}
+

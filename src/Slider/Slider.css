@@ -1,0 +1,100 @@
+/**{
+    outline: 4px solid green !important;
+}*/
+
+.slider-Position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-card{
+    height: 40rem;
+    width: 73.75rem;
+    position: relative;
+    border-radius: 1.875rem;
+}
+
+/*Button*/
+
+.button-position{
+    position: absolute;
+}
+
+.arrows{
+    display: flex;
+    flex-direction: row;
+}
+
+.arrow1{
+    padding-right: 32rem;
+    
+}
+
+.arrow2{
+    padding-left: 32rem;
+}
+
+#arrow1{
+    background-color: white;
+    border: none;
+    border-radius: 0.625rem;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+#arrow2{
+    background-color: white;
+    border: none;
+    border-radius: 0.625rem;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.button-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.2rem 0 0 0;
+}
+
+/*Text content*/
+
+.textContent{
+    position: absolute;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 4.15rem;
+    color: white;
+    text-align: center;
+    padding: 0.3rem 0;
+    margin: 0 0;
+}
+
+.txt-desc{
+    width: 41.5rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.Button-content{
+    position: absolute;
+    margin: 0 auto;
+}
+
+.Button-Click{
+    width: 18rem;
+    height: 4rem;
+    color: white;
+    font-size: 0.875rem;
+    text-align: center;
+    background-color: rgba(59, 146, 84, 1);
+    border: none;
+    border-radius: 0.625rem;
+    margin: 0 auto;
+}
